@@ -86,8 +86,8 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/立flag|死亡flag/) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
 	
 	//鴨霸獸指令開始於此
-	if (trigger.match(/沙希醬|沙希/) != null) return exports.funny.randomReply() ;
-	if (trigger.match(/C8763|星爆氣流斬/) != null) return exports.funny.C8763() ;
+	if (trigger.match(/李世河|世河/) != null) return exports.funny.randomReply() ;
+	if (trigger.match(/C8763|相位終結技/) != null) return exports.funny.C8763() ;
 	if (trigger.match(/^野$/) != null) return exports.funny.ya() ;
 	if (trigger.match(/^炸$/) != null) return exports.funny.zA() ;
 	if (trigger.match(/運氣|運勢/) != null) return exports.funny.randomLuck(mainMsg) ; //占卜運氣	
