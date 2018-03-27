@@ -89,7 +89,7 @@ function zA(){
 }
 
 function randomLuck(TEXT) {
-let rplyArr = ['超吉喔，恭喜你','如果是你的話，每天都是超級上吉呢','大吉','中吉','末吉','小吉','吉','末吉','中吉','小吉','凶','大凶呢，別太難過啦(遞遊戲機'];
+let rplyArr = ['超吉喔，恭喜你','如果是你的話，每天都是超級上吉呢','大吉!跟我一樣呢!','中吉，還不賴呢','末吉','小吉','吉','末吉','中吉，還不賴呢','小吉','凶','大凶呢，別太難過啦(遞遊戲機'];
 rply.text = TEXT[0] + ' ： ' + rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
