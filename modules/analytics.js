@@ -111,6 +111,8 @@ function parseInput(rplyToken, inputStr) {
 	//賭博拉霸
 	if (trigger.match(/^撲克抽卡$/) != null) return exports.pokerone.main(mainMsg[1]);
 	
+	//比大小
+	if (trigger.match(/^撲克比大小$/) != null) return exports.pokertwo.main(mainMsg[1]);
 	
 	
 	
