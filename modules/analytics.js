@@ -106,7 +106,7 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^核心建造$/) != null) return exports.CorE.main(mainMsg[1],mainMsg[2],mainMsg[3]);	
 
 	//賭博拉霸
-	if (trigger.match(/^星輝拉霸機$/) != null) return exports.GambleLaba.main(mainMsg[1]);
+	if (trigger.match(/^盧布拉霸機$/) != null) return exports.GambleLaba.main(mainMsg[1]);
 
 	//賭博拉霸
 	if (trigger.match(/^撲克抽卡$/) != null) return exports.pokerone.main(mainMsg[1]);
@@ -116,6 +116,9 @@ function parseInput(rplyToken, inputStr) {
 	
 	//猜拳
 	if (trigger.match(/^猜拳$/) != null) return exports.roadXX.main(mainMsg[1]);
+	
+	//硬幣正反面
+	if (trigger.match(/^猜正反$/) != null) return exports.coinlub.main(mainMsg[1]);
 	
 	
 	
