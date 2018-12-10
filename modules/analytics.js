@@ -130,7 +130,7 @@ function parseInput(rplyToken, inputStr) {
 	//哈里
 	if (trigger.match(/^回合結束換哈里$/) != null) return exports.MonsterHariTest.main(mainMsg[1]);
 	
-	tarot 指令
+	/*tarot 指令
 	if (trigger.match(/猜拳/) != null) {
 		return RockPaperScissors(inputStr, mainMsg[1]);
 	}
