@@ -114,6 +114,8 @@ function parseInput(rplyToken, inputStr) {
 	//比大小
 	if (trigger.match(/^撲克比大小$/) != null) return exports.pokertwo.main(mainMsg[1]);
 	
+	//猜拳
+	if (trigger.match(/^猜拳$/) != null) return exports.roadXX.main(mainMsg[1]);
 	
 	
 	
@@ -121,6 +123,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	//哈里
 	if (trigger.match(/^哈里挑戰1$/) != null) return exports.funny.Hari() ;
+
 	
 	
 	
