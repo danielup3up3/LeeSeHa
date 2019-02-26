@@ -39,6 +39,30 @@ let rplyArr = ['\
 rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
+
+function shiken() {
+let rplyArr = ['\
+「倒退一層」', '\
+「倒退一層」', '\
+「倒退一層」', '\
+「發現道具 珍奇寶石*1」', '\
+「發現稀有礦脈 獲得500盧布」', '\
+「在地上撿到錢，獲得50盧布」', '\
+「在地上撿到錢，獲得50盧布」', '\
+「觸發地城機關，當場死去」', '\
+「被哥布林追，需倒退兩層逃開後，失去一半目前累積得到的盧布」', '\
+「開到假的寶箱，其實是怪物 被襲擊」', '\
+「開到假的寶箱，其實是怪物 被襲擊」', '\
+「轉角突然遭遇怪物攻擊」', '\
+「轉角突然遭遇怪物攻擊」', '\
+「轉角突然遭遇怪物攻擊」', '\
+「與夥伴走散，可不支付入場費回到第零層跟同伴會合重新挑戰，或拋棄夥伴」', '\
+「被哥布林追，需倒退兩層逃開後，失去一半目前累積得到的盧布」', '\
+「喪失所有道具」'];
+
+rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+return rply;
+}
 	
 function randomReply() {
 let rplyArr = ['\
@@ -415,6 +439,7 @@ module.exports = {
 	SortIt,
 	tarotRevReply,
 	choice,
+	shiken,
 	tarotCardReply,
 	C8763,
 	ya,
