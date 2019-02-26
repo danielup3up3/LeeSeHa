@@ -128,6 +128,7 @@ function parseInput(rplyToken, inputStr) {
 	//哈里
 	if (trigger.match(/^哈里挑戰1$/) != null) return exports.funny.Hari() ;
 
+	if (trigger.match(/^寶箱$/) != null) return exports.NORBOX.main(mainMsg[1]);
 	
 	
 	
