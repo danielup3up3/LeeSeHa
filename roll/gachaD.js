@@ -73,9 +73,9 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			CharacterList5 = ['蓮','琳娜'];
 
 			//
-			characterChance3 = 50;
-			characterChance4 = 35;
-			characterChance5 = 15;
+			characterChance3 = 60;
+			characterChance4 = 30;
+			characterChance5 = 10;
 	
 
 			if(GachaTimes =='單抽'){
