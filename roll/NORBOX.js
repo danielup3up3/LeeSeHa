@@ -124,7 +124,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 		}else if(temp <= SpecialChance){
 			
 			SkillResult[i] = SpecialSkill[Math.floor((Math.random() * (SpecialSkill.length)) + 0)];
-				AttackResult[i] =  '\【道具】(除珍奇寶石外皆無法留到此次探險結束之後):' +  SkillResult[i]+ '\n';
+				AttackResult[i] =  '\【道具】:' +  SkillResult[i]+ '\n';
 		}
 		
 		
