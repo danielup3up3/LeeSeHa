@@ -132,6 +132,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^寶箱鑑定$/) != null) return exports.funny.bbox() ;
 	
+	if (trigger.match(/^意外事件$/) != null) return exports.funny.shiken() ;
 	
 	
 	
