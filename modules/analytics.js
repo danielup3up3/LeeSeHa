@@ -130,6 +130,8 @@ function parseInput(rplyToken, inputStr) {
 
 	if (trigger.match(/^打開寶箱$/) != null) return exports.NORBOX.main(mainMsg[1]);
 	
+	if (trigger.match(/^寶箱鑑定$/) != null) return exports.funny.bbox() ;
+	
 	
 	
 	
