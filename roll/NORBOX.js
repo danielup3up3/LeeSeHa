@@ -18,7 +18,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 		var SpecialChance = 0;//特殊技能機率
     
    
-    if(stype == 0){
+    if(stype =='低級'){
 			//綠血區域時
 			times = 1
 	    
@@ -39,7 +39,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			SpecialSkill = ['【SSR】風迷宮武=暴風之槍','【SSR】風迷宮武=守護盾劍','【SSR】風迷宮武=恩惠之杖','【SSR】迷宮武=狂嵐之劍'];
 			
       
-      }else if(stype == 1){
+      }else if(stype =='中級'{
 			//黃血區域
 		times = 1
 	      
@@ -59,7 +59,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			SpecialSkill = ['辟邪符','辟邪符','珍奇寶石','招財貓'];
 		
     
-    }else if(stype == 2){
+    }else if(stype =='高級'){
 			//紅血區域
 			times = 1
 	    
