@@ -29,6 +29,16 @@ let rplyArr = ['\
 rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
+
+function bbox() {
+let rplyArr = ['\
+「稀有度為低級」', '\
+「稀有度為中級」', '\
+「稀有度為高級」'];
+
+rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+return rply;
+}
 	
 function randomReply() {
 let rplyArr = ['\
@@ -397,6 +407,7 @@ function choice(input,str) {
 module.exports = {
 	BStyleFlagSCRIPTS,
 	randomReply,
+	bbox,
 	randomLuck,
 	RockPaperScissors,
 	MultiDrawTarot,
