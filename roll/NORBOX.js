@@ -39,7 +39,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			SpecialSkill = ['【SSR】風迷宮武=暴風之槍','【SSR】風迷宮武=守護盾劍','【SSR】風迷宮武=恩惠之杖','【SSR】迷宮武=狂嵐之劍'];
 			
       
-      }else if(stype =='中級'{
+      }else if(stype =='中級'){
 			//黃血區域
 		times = 1
 	      
