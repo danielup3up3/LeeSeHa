@@ -145,7 +145,6 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/猜拳/) != null) {
 		return exports.funny.RockPaperScissors(inputStr, mainMsg[1]);
 	}
-*/
 
   
 }
