@@ -122,7 +122,7 @@ return rply;
 ////////////////////////////////////////
 //////////////// Funny
 ////////////////////////////////////////
-
+/*11 */
 function RockPaperScissors(HandToCal, text) {
 	let returnStr = '';
 	if (HandToCal.match(/石頭|布|剪刀|1|2|3/) != null) {
