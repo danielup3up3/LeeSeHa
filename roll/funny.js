@@ -375,7 +375,6 @@ module.exports = {
 	randomReply,
 	bbox,
 	randomLuck,
-	RockPaperScissors,
 	MultiDrawTarot,
 	NomalDrawTarot,
 	SortIt,
