@@ -49,8 +49,8 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 					\n 三星：100%\
 					\n\
 					\n 出現角色一覽:\
-					\n  蓮\
-					\n  琳娜\
+					\n  威爾\
+					\n  鬼姬\
 					\n\
 					\n 提供招募方式：\
 					\n 首抽 無需珍奇寶石[一人限定一次] \
@@ -66,11 +66,11 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			  	}
 		}else if(DrawPool == 1){
 			CharacterList3.length = 2;
-			CharacterList3 = ['菈法','尼克'];
+			CharacterList3 = ['艾恩','菲路米亞'];
 			CharacterList4.length = 2;
-			CharacterList4 = ['奧斯','約書亞'];
+			CharacterList4 = ['哈里','黑木'];
 			CharacterList5.length = 2;
-			CharacterList5 = ['蓮','琳娜'];
+			CharacterList5 = ['威爾','鬼姬'];
 
 			//
 			characterChance3 = 60;
@@ -91,12 +91,12 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 					\n\
 					\n 提供割合： \
 					\n 角色系列 \
-					\n  尼克\
-					\n  菈法\
-          \n  奧斯\
-					\n  約書亞\
-          \n  蓮\
-          \n  琳娜\
+					\n  艾恩\
+					\n  菲路米亞\
+          \n  哈里\
+					\n  黑木\
+          \n  威爾\
+          \n  鬼姬\
 					\n\
 					\n 提供招募方式：\
 					\n 單抽 需1顆珍奇寶石\
