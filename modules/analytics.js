@@ -124,6 +124,9 @@ function parseInput(rplyToken, inputStr) {
 	//硬幣正反面
 	if (trigger.match(/^猜正反$/) != null) return exports.coinlub.main(mainMsg[1]);
 	
+	//遭遇惡龍
+	if (trigger.match(/^遭遇惡龍$/) != null) return exports.funny.dragon() ;
+	
 	
 	
 	//////////////////////////怪物資料彙整區////////////////////////////////
