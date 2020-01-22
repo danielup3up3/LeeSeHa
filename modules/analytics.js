@@ -108,6 +108,9 @@ function parseInput(rplyToken, inputStr) {
 
 	//賭博拉霸
 	if (trigger.match(/^盧布拉霸機$/) != null) return exports.GambleLaba.main(mainMsg[1]);
+	
+	//完美童話
+	if (trigger.match(/^完美童話$/) != null) return exports.PStory.main(mainMsg[1]);
 
 	//賭博拉霸
 	if (trigger.match(/^撲克抽卡$/) != null) return exports.pokerone.main(mainMsg[1]);
