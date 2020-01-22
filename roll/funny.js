@@ -40,6 +40,19 @@ rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
 
+
+
+function dragon() {
+let rplyArr = ['\
+「擊敗惡龍」', '\
+「被惡龍擊殺」'];
+
+rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+return rply;
+}
+
+
+
 function shiken() {
 let rplyArr = ['\
 「倒退一層」', '\
@@ -371,6 +384,7 @@ module.exports = {
 	NomalDrawTarot,
 	SortIt,
 	tarotRevReply,
+	dragon,
 	choice,
 	shiken,
 	tarotCardReply,
